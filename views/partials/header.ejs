@@ -1,0 +1,93 @@
+<!-- Barra de logo com menu -->
+<div class="barra-logo-menu">
+    <div>
+        <a href="/"><img src="/images/home/logo-D.png" alt="" class="logo"></a>
+    </div>
+    <a class="produto-venda" href="/produtos/todos">Todos os produtos</a>
+    <a class="produto-venda" href="/produtos/cadastrodeproduto">Precisa vender algo?</a>
+    <nav class="menu-navegacao">
+        <span>Siga nossas redes:</span>
+        <a href="">Facebook</a>
+        <a href="">Instagram</a>
+        <a href="">Twitter</a>
+    </nav>
+    <span class="icone-carrinho-usuario">
+        <a href="/checkout"><img class="carrinho-icon" src="/images/home/carrinho-icon.png" alt=""></a>
+        <a href="/usuarios/login"><img class="usuario-icon" src="/images/home/usuario-icon.png" alt=""></a>
+    </span>
+</div>
+<!-- Barra de pesquisa -->
+<div class="div-barra-pesquisa">
+    <span><input class="barra-pesquisa" type="text" placeholder="Pesquise o que deseja comprar." size="60px">
+        <img class="lupa-icon" src="/images/home/lupa-icon.png" alt="">
+    </span>
+</div>
+
+<style>
+    body {
+        margin: 0px;
+        background-color: whitesmoke;
+    }
+
+    .logo {
+        height: 55px;
+        width: 55px;
+        margin-left: 20%;
+    }
+
+    .barra-logo-menu {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background-color: rgb(35, 149, 255);
+        height: 52px;
+        align-items: center;
+    }
+
+    .produto-venda {
+        margin-left: -13%;
+    }
+
+    .menu-navegacao a,
+    .produto-venda {
+        font-size: 1.2rem;
+        color: black;
+    }
+
+    .carrinho-icon-add {
+        width: 20%;
+        margin-left: 78%;
+        margin-top: -15%;
+    }
+
+    .carrinho-icon {
+        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .usuario-icon {
+        margin-right: 15px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .lupa-icon {
+        height: 15px;
+        width: 30px;
+    }
+
+    .barra-pesquisa {
+        margin: 0 10px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .div-barra-pesquisa {
+        margin: 2% 0px 0px 0%;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+</style>

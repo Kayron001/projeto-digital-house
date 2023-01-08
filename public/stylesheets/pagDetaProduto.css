@@ -1,0 +1,130 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-produto {
+    margin-left: 1vh;
+    width: 97vw;
+    box-shadow: 0px 4px 10px 0 black;
+    border-radius: 20px;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: rgb(152, 204, 253);
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.nome-produto {
+    margin-top: -1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.caixa-imagem {
+    margin-top: 2%;
+    width: 77%;
+    margin-left: 20%;
+    font-size: 1.4rem;
+}
+
+.caixa-imagem .img {
+    width: 80%;
+}
+
+.caixa-preco-opcoes {
+    width: 80%;
+    padding: 5% 2% 7% 5%;
+    border-right: 2px solid black;
+}
+
+.preco-antes {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: red;
+    text-decoration: line-through;
+}
+
+.porcentagem-desc {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.preco-depois {
+    margin-top: -4%;
+    text-decoration: underline;
+    color: green;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.icone {
+    text-align: center;
+    width: 10%;
+    margin: 0;
+}
+
+.vantagens {
+    margin-bottom: 2%;
+}
+
+.vantagens div img {
+    margin-right: 2%;
+}
+
+.vantagens-caixa{
+    display: flex;
+    align-items: center;
+}
+
+.botao-comprar {
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+    margin-top: 2%;
+    font-weight: bold;
+    color: black;
+    padding: 2% 3%;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.botao-adicionar {
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: none;
+    margin-top: 2%;
+    font-weight: bold;
+    color: black;
+    padding: 2% 3%;
+    border-radius: 5px;
+    background-color: #1259c3;
+}
+
+hr {
+    margin: 5% 0;
+}
+
+.botao-editar {
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 7px 3%;
+    border-radius: 5px;
+    background-color: #EAC926;
+}
+
+.botao-apagar {
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: none;
+    font-weight: bold;
+    padding: 6px 3%;
+    border-radius: 5px;
+    background-color: red;
+}
+

@@ -1,0 +1,93 @@
+<div class="footer">
+    <div>
+        <a href="/"><img class="logo-footer" src="/images/home/logo.png" alt=""></a>
+    </div>
+    <div class="opcoes-footer">
+        <p class="opcao-titulo"><strong>Início</strong></p>
+        <a href="/" class="link"><p class="opcao-footer">Home</p></a>
+        <a href="/categorias" class="link"><p class="opcao-footer">Categorias</p></a>
+        <a href="/login/cadastro" class="link"><p class="opcao-footer">Cadastro de usuário</p></a>
+    </div>
+    <div class="opcoes-footer">
+        <p class="opcao-titulo"><strong>Sobre-nós</strong></p>
+        <a href="" class="link"><p class="opcao-footer">Blog</p></a>
+        <a href="" class="link"><p class="opcao-footer">Missão</p></a>
+        <a href="" class="link"><p class="opcao-footer">Contato</p></a>
+        <a href="" class="link"><p class="opcao-footer">Quem somos</p></a>
+    </div>
+    <div class="opcoes-footer">
+        <p class="opcao-titulo"><strong>Suporte</strong></p>
+        <a href="" class="link"><p class="opcao-footer">FAQ</p></a>
+        <a href="" class="link"><p class="opcao-footer">Telefones</p></a>
+        <a href="" class="link"><p class="opcao-footer">Chat online</p></a>
+        <a href="" class="link"><p class="opcao-footer">Reclame Aqui</p></a>
+    </div>
+    <div class="rede-sociais-footer">
+        <span>
+            <img src="/images/home/facebook-icon.png" alt="" class="redesocial-icon">
+            <img src="/images/home/wpp-icon.png" alt="" class="redesocial-icon">
+            <img src="/images/home/insta-icon.png" alt="" class="redesocial-icon">
+            <img src="/images/home/twitter-icon.png" alt="" class="redesocial-icon">
+        </span>
+        <p>
+            <button class="butao-contato-footer">Contato</button>
+        </p>
+    </div>
+</div>
+
+<style>
+
+    .footer {
+        margin-top: 3%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin: 0% 2% 1% 7%;
+        width: 65%;
+        height: 90%;
+        padding: 0;
+    }
+
+    .rede-sociais-footer {
+        margin: 5% 15% 0 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .redesocial-icon {
+        cursor: pointer;
+        margin: 8% 3%;
+        width: 17%;
+        height: 45%;
+    }
+
+    .opcao-titulo {
+        text-decoration: underline;
+    }
+
+    .opcao-footer {
+        cursor: pointer;
+    }
+
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+
+    .butao-contato-footer {
+        cursor: pointer;
+        color: whitesmoke;
+        background-color: rgb(35, 149, 255);
+        border: 1px solid gray;
+        box-shadow: 0px 4px 10px 0 black;
+        border-radius: 5px;
+        padding: 2% 5%;
+        font-size: 1.5em;
+    }
+</style>

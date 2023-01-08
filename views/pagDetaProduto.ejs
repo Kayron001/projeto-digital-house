@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Detalhe Produto | Desapegados</title>
+    <link rel="stylesheet" href="/stylesheets/pagDetaProduto.css">
+    <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+</head>
+
+<body>
+    <header>
+        <%- include('./partials/header') %>
+    </header>
+
+    <div class="conteudo">
+        <div>
+            <div>
+                <p class="nome-produto"><%= produtoid.nome %></p>
+            </div>
+        </div>
+        <div class="caixa-produto">
+            <div>
+                <div class="caixa-imagem">
+                    <img class="img" src="/images/produtos/<%= produtoid.src %>" alt="Imagem do Produto">
+                    <p>
+                        <%= produtoid.descricao %>
+                    </p>
+                </div>
+            </div>
+            <div class="caixa-preco-opcoes">
+                <article>
+                    <h2><%= produtoid.name %></h2>
+                <%
+                    let precoNumber = Number(produtoid.preco)
+                    let precoFinal = (precoNumber * (1 - produtoid.desconto)).toFixed(2).replace('.',',')
+                    let preco = precoNumber.toFixed(2).replace('.',',')
+                    if(produtoid.desconto> 0) { %>
+                        <p>
+                            <span class="preco-antes">R$ <%= paraMil(preco) %></span> /
+                            <span class="porcentagem-desc"><%= produtoid.desconto *100 %>% OFF</span>
+                        </p>
+                        <p class="preco-depois">R$ <%= paraMil(precoFinal) %></p>
+                    <% } else { %>
+                        <p class="preco-depois">R$ <%= paraMil(precoFinal) %></p>
+                    <% } %>
+                <div class="vantagens">
+                    <div class="vantagens-caixa">
+                        <img class="icone" src="/images/pagDetaProduto/credit-card.png" alt="Cartão de Crédito">
+                        <p>Pague em até 12 parcelas sem juros</p>
+                    </div>
+                    <div class="vantagens-caixa">
+                        <img class="icone" src="/images/pagDetaProduto/delivery-van.png" alt="Carro de Entrega">
+                        <p>Retire gratuitamente nas instalações do vendedor</p>
+                    </div>
+                </div>
+                <div>
+                    <form action="/checkout/item/adicionar/<%= produtoid.id %>" method="POST">
+                        <input type="hidden" value="<%= produtoid.id %>" name='id'>
+                        <input type="hidden" value="<%= produtoid.nome %>" name='nome'>
+                        <input type="hidden" value="<%= produtoid.src %>" name='src'>
+                        <input type="hidden" value="<%= produtoid.preco %>" name='preco'>
+                        <input type="hidden" value="<%= produtoid.desconto %>" name='desconto'>
+                        <button class="botao-comprar" type="submit" href="/checkout">COMPRAR AGORA</button>
+                    </form>
+                    <form action="/checkout/item/adicionar-carrinho/<%= produtoid.id %>" method="POST">
+                        <input type="hidden" value="<%= produtoid.id %>" name='id'>
+                        <input type="hidden" value="<%= produtoid.nome %>" name='nome'>
+                        <input type="hidden" value="<%= produtoid.src %>" name='src'>
+                        <input type="hidden" value="<%= produtoid.preco %>" name='preco'>
+                        <input type="hidden" value="<%= produtoid.desconto %>" name='desconto'>
+                        <button class="botao-adicionar" type="submit" href="/checkout/item/adicionar-carrinho/<%= produtoid.id %>">ADICIONAR CARRINHO</button>
+                    </form>
+                    <hr>
+                </div>
+                    <form action="/produtos/item/deletar/<%= produtoid.id %>?_method=DELETE" method="POST">
+                        <a class="botao-editar" href="/produtos/item/editar/<%= produtoid.id %>">EDITAR</a>
+                        <button class="botao-apagar" type="submit">APAGAR</button>
+                    </form>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <%- include('./partials/footer') %>
+</footer>
+
+</html>

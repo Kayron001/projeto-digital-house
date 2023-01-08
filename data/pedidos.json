@@ -1,0 +1,197 @@
+[
+ {
+  "id": 1,
+  "itens": [
+   {
+    "nome": "Cadeira acolchoada extra confort",
+    "valor": 399
+   },
+   {
+    "nome": "Cama de casal",
+    "valor": 909.3
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "itens": [
+   {
+    "nome": "Cama de casal",
+    "valor": 909.3
+   },
+   {
+    "nome": "Motorola G270 Mega Plus",
+    "valor": 1819.48
+   },
+   {
+    "nome": "Poltrona Pisces em veludo",
+    "valor": 649
+   },
+   {
+    "nome": "Motorola Moto E2000",
+    "valor": 1399.2
+   }
+  ]
+ },
+ {
+  "id": 3,
+  "itens": [
+   {
+    "nome": "Cadeira acolchoada extra confort",
+    "valor": 399
+   },
+   {
+    "nome": "Cama de casal",
+    "valor": 909.3
+   }
+  ]
+ },
+ {
+  "id": 4,
+  "itens": [
+   {
+    "nome": "Cadeira acolchoada extra confort",
+    "valor": 399
+   },
+   {
+    "nome": "Sofá Living de dois lugares",
+    "valor": 809.46
+   }
+  ]
+ },
+ {
+  "id": 5,
+  "itens": [
+   {
+    "nome": "Cama de Casal Carolina Puro Luxo",
+    "valor": 1517.6000000000001
+   },
+   {
+    "nome": "Micro-ondas LG Easy Clean Preto 30L",
+    "valor": 503.4
+   },
+   {
+    "nome": "Nokia TS3000",
+    "valor": 1445
+   },
+   {
+    "nome": "ASUS POOG Phone 5s 8GB/ 128GB Preto",
+    "valor": 3159.2000000000003
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "itens": [
+   {
+    "nome": "Torradeira Elétrica Electrolux Experience",
+    "valor": 249
+   },
+   {
+    "nome": "Cama Casal Box Com Sapateira Embutida",
+    "valor": 899
+   },
+   {
+    "nome": "Cama Manchester com Moldura Estofada",
+    "valor": 1520.1000000000001
+   },
+   {
+    "nome": "Armário Aurora Wood",
+    "valor": 857.3399999999999
+   },
+   {
+    "nome": "Armário de cozinha valência em MDF",
+    "valor": 902.9999999999999
+   },
+   {
+    "nome": "Fogão cooktop de 4 queimadores",
+    "valor": 1824.27
+   },
+   {
+    "nome": "Sofá com Divã Esquerdo Merlot Camurça",
+    "valor": 1397.8999999999999
+   },
+   {
+    "nome": "Monitor gamer 27 polegadas",
+    "valor": 789
+   },
+   {
+    "nome": "Guarda-Roupa Solteiro Retrô ",
+    "valor": 852.55
+   },
+   {
+    "nome": "Micro-ondas LG Easy Clean Preto 30L",
+    "valor": 503.4
+   },
+   {
+    "nome": "Guarda-Roupa Casal Paris-Docelar",
+    "valor": 758.4000000000001
+   },
+   {
+    "nome": "Grill Elétrico Multiuso, Preto e Inox",
+    "valor": 439
+   },
+   {
+    "nome": "Panela de pressão eletrica Philco",
+    "valor": 697.9
+   },
+   {
+    "nome": "Guarda-Roupa Casal Ana",
+    "valor": 1183.2
+   }
+  ]
+ },
+ {
+  "id": 7,
+  "itens": [
+   {
+    "nome": "Panela de pressão eletrica Philco",
+    "valor": 697.9
+   },
+   {
+    "nome": "Cama de casal",
+    "valor": 909.3
+   },
+   {
+    "nome": "Carro",
+    "valor": 555
+   },
+   {
+    "nome": "Carro",
+    "valor": 555
+   },
+   {
+    "nome": "Carro",
+    "valor": 555
+   },
+   {
+    "nome": "Carro",
+    "valor": 555
+   },
+   {
+    "nome": "Carro",
+    "valor": 555
+   },
+   {
+    "nome": "Carro",
+    "valor": 555
+   },
+   {
+    "nome": "Carro",
+    "valor": 555
+   },
+   {
+    "nome": "Carro",
+    "valor": 555
+   },
+   {
+    "nome": "carro",
+    "valor": 555
+   },
+   {
+    "nome": "Motorola G270 Mega Plus",
+    "valor": 1819.48
+   }
+  ]
+ }
+]

@@ -1,0 +1,425 @@
+[
+ {
+  "desconto": 0,
+  "id": 6,
+  "nome": "Cadeira acolchoada extra confort",
+  "preco": "387",
+  "categoria": "outros",
+  "descricao": "Conjunto de cadeiras acolchoados, ótimo para mesa de jantar, escolha o que é melhor para você, duas, quatro ou seis cadeiras.",
+  "src": "produto6.png"
+ },
+ {
+  "id": 2,
+  "nome": "Cama de casal",
+  "preco": 1299,
+  "desconto": 0.3,
+  "descricao": "Produto desenvolvido com madeira de Pinus de reflorestamento 100% maciça, ecologicamente correta. Esse produto de alta resistência e grande performance foi desenvolvido para o cliente que procura uma cama que suporte 200kg",
+  "categoria": "camas",
+  "src": "produto2.png"
+ },
+ {
+  "id": 1,
+  "nome": "Sofá Living de dois lugares",
+  "preco": 1499,
+  "desconto": 0.46,
+  "descricao": "Se quer receber os amigos e familiares com muita elegância, o Sofá Living é a opção ideal. O design aposta na simplicidade das linhas e das formas, perfeito para um ambiente contemporâneo. A base e pés  em madeira, espumas D28 e revestimento em Linho garantem resistência e durabilidade ao produto. Você acaba de encontrar o item que faltava para sua sala! Não Perca.",
+  "categoria": "sofas",
+  "src": "produto1.png"
+ },
+ {
+  "id": 3,
+  "nome": "Mesa para área externa",
+  "preco": 997,
+  "desconto": 0.5,
+  "descricao": "Mesa redonda industrial para area externa 90x90 estilosa e com um desing versátil, é capaz de combinar tanto com a decoração interna, quanto com a externa. Tenha mais sofisticação na sua casa! A mesa possui tampo em madeira maciça, e sua base é feita de tubos metálicos.",
+  "categoria": "outros",
+  "src": "produto3.png"
+ },
+ {
+  "id": 4,
+  "nome": "Motorola G270 Mega Plus",
+  "preco": 3499,
+  "desconto": 0.48,
+  "descricao": "O Smartphoe Motorola G270 Mega Plus é um smartphone Android completo, que não tem muito a invejar aos mais avançados dispositivos. Surpreendente é sua tela Touchscreen de 6.6 polegadas, que coloca esse Poco no topo de sua categoria. A resolução também é alta: 2400x1080 pixel. Quanto às funções, no Motorola G270 Mega Plus realmente não falta nada.",
+  "categoria": "celulares",
+  "src": "produto4.png"
+ },
+ {
+  "id": 5,
+  "nome": "Armário Aurora Wood",
+  "preco": 1299,
+  "desconto": 0.34,
+  "descricao": "O armário Aurora foi desenvolvido para oferecer praticidade no seu dia a dia, proporcionando muito mais comodidade na hora de organizar suas roupas, com duas gavetas na parte externa para organização de peças menores, com corrediças metálicas que permite um deslize mais seguro e suave. Ideal para ambientes com pouco espaço.",
+  "categoria": "guardaroupas",
+  "src": "produto5.png"
+ },
+ {
+  "id": 7,
+  "nome": "Monitor gamer 27 polegadas",
+  "preco": 789,
+  "desconto": 0,
+  "descricao": "Monitor Gamer, ótimo balanceamento de cores e alta taxa de resposta, perfeito para jogar jogos em 60fp/s.",
+  "categoria": "outros",
+  "src": "produto7.png"
+ },
+ {
+  "id": 8,
+  "nome": "Mochila antifurto super segura",
+  "preco": 229,
+  "desconto": 0,
+  "descricao": "Mochila antifurto, com usb interno para fácil carregamento atráves de powerbank, ideial para levar notebook, produto acompanha cadeado.",
+  "categoria": "outros",
+  "src": "produto8.png"
+ },
+ {
+  "id": 9,
+  "nome": "Armário de cozinha valência em MDF",
+  "preco": 1290,
+  "desconto": 0.3,
+  "descricao": "A Cozinha valência deixa o ambiente ainda mais convidativo e sempre pronto para te ajudar. Produzido com materiais de resistência e qualidade, é a melhor opção para sua cozinha.",
+  "categoria": "outros",
+  "src": "produto9.png"
+ },
+ {
+  "id": 10,
+  "nome": "Fogão cooktop de 4 queimadores",
+  "preco": 2499,
+  "desconto": 0.27,
+  "descricao": "O Fogão 4 queimadores da Fischer possui mesa em vidro temperado, 1 queimador rápido de 3000W e três queimadores semirrápidos de 1750W. Nas cor Preto Ébano",
+  "categoria": "eletrodomesticos",
+  "src": "produto10.png"
+ },
+ {
+  "id": 11,
+  "nome": "Mesa de computador back in black",
+  "preco": 549,
+  "desconto": 0,
+  "descricao": "O ambiente de trabalho ou estudos precisa estar sempre organizado, pois ele contribui diretamente no nosso foco. E para isso, a Mesa Office da Notável Móveis é o item certo.",
+  "categoria": "outros",
+  "src": "produto11.png"
+ },
+ {
+  "id": 12,
+  "nome": "Guarda-Roupa de casal Reno em MDF",
+  "preco": 1879,
+  "desconto": 0,
+  "descricao": "O Guarda-Roupa Casal Reno da Madesa traz uma combinação perfeita entre design moderno, ótima disposição interna e materiais de qualidade. São três portas de correr.",
+  "categoria": "guardaroupas",
+  "src": "produto12.png"
+ },
+ {
+  "id": 13,
+  "nome": "Panela de pressão eletrica Philco",
+  "preco": 997,
+  "desconto": 0.3,
+  "descricao": "Cozinhar com praticidade, rapidez e segurança é tudo o que desejamos, com 3 litros de capacidade, ela possui o tamanho perfeito para o preparo de receitas do dia a dia.",
+  "categoria": "eletrodomesticos",
+  "src": "produto13.png"
+ },
+ {
+  "id": 14,
+  "nome": "Poltrona Pisces em veludo",
+  "preco": 649,
+  "desconto": 0,
+  "descricao": "Busca inovação,conforto, durabilidade e sustentabilidade para sua sala de estar? Com a Poltrona Pisces você tem tudo isso em uma única poltrona, ela com certeza será o diferencial na sua decoração.",
+  "categoria": "sofas",
+  "src": "produto14.png"
+ },
+ {
+  "id": 15,
+  "nome": "Cama Casal Box Com Sapateira Embutida",
+  "preco": 899,
+  "desconto": 0,
+  "descricao": "Com linhas retas e design minimalista, a Cama Casal Box Com Sapateira Embutida é a melhor opção para trazer conforto e elegância ao seu quarto. Produzida em MDF, com estrado de madeira reflorestada garante durabilidade e resistência ao móvel. Acabamento resistente com impressão UV e verniz de alta duração.",
+  "categoria": "camas",
+  "src": "cama1.png"
+ },
+ {
+  "id": 16,
+  "nome": "Cama Mantra com 4 Gavetões",
+  "preco": 1249,
+  "desconto": 0.15,
+  "descricao": "Repare bem nesta cama Kendra: é perfeita para acomodar o seu colchão e garantir noites de sono confortáveis e reconfortantes e para além disso ela ainda conta com gavetas inferiores onde poderá arrumar cobertores, edredões, roupas de cama, sapatos ou o que mais desejar.",
+  "categoria": "camas",
+  "src": "cama2.png"
+ },
+ {
+  "id": 17,
+  "nome": "Cama Casal com Gavetão Auxiliar Frontal",
+  "preco": 997,
+  "desconto": 0,
+  "descricao": "Cama Casal com Gavetão Frontal Auxiliar. Produto fabricado em MDF. Gavetão com corrediças telescópicas, perfil puxador em alumínio, acompanha rodízios. Muito útil para guardar roupas de cama, colchas, travesseiros. Ótimo custo benefício em relação a utilidade que o produto oferece, produto compacto que permite otimização do espaço em seu dormitório. Revestimento externo, pintura impressão com vernizes UV em alto relevo. Beleza e sofisticação.",
+  "categoria": "camas",
+  "src": "cama3.png"
+ },
+ {
+  "id": 18,
+  "nome": "Cama de Solteiro Priscila Wood",
+  "preco": 598,
+  "desconto": 0,
+  "descricao": "Quando procuramos por uma cama, buscamos conforto e durabilidade acima de tudo. Na cama você encontra essas duas características. Seus detalhes são um diferencial do modelo, que além de bonito é resistente e possui uma vida útil prolongada.",
+  "categoria": "camas",
+  "src": "cama4.png"
+ },
+ {
+  "id": 19,
+  "nome": "Cama de Casal Carolina Puro Luxo",
+  "preco": 1897,
+  "desconto": 0.2,
+  "descricao": "A Cama Carolina é perfeita para quem quer aliar praticidade, bom gosto e estilo. Com as suas linhas retas e a sua cor clássica é muito harmoniosa, sendo fácil de enquadrar em qualquer ambiente.",
+  "categoria": "camas",
+  "src": "cama5.png"
+ },
+ {
+  "id": 20,
+  "nome": "Cama Manchester com Moldura Estofada",
+  "preco": 1689,
+  "desconto": 0.1,
+  "descricao": "Transforme o seu quarto num local que seja muito mais do que apenas para descansar. Transforme-o também num espaço de bom gosto, requinte, aconchego e relaxamento com a Cama Manchester. Um móvel com presença e que vai fazer do seu quarto uma divisão onde lhe apeteça estar!",
+  "categoria": "camas",
+  "src": "cama6.png"
+ },
+ {
+  "id": 21,
+  "nome": "Cama solteiro 100% MDF Paris Francinni",
+  "preco": 749,
+  "desconto": 0,
+  "descricao": "Para você que quer dar um diferencial e mudar visual do cantinho mais aconchegante de sua casa e, ao mesmo tempo, ter o melhor para suas noites de sono, a Cama solteiro 100% MDF Paris Francinni Grelhat é a escolha perfeita para compor o ambiente!",
+  "categoria": "camas",
+  "src": "cama7.png"
+ },
+ {
+  "id": 22,
+  "nome": "Guarda-Roupa Solteiro Retrô ",
+  "preco": 1003,
+  "desconto": 0.15,
+  "descricao": "Item necessário para o bom funcionamento do quarto, o Guarda-Roupa Retrô é o móvel ideal para que a arrumação do ambiente fique em dia. Equipado com 3 portas e 3 gavetas, ele tem compartimentos para vestuário, calçados, acessórios, cosméticos e até caixas organizadoras, tudo para garantir que peças fundamentais à sua rotina estejam sempre à mão",
+  "categoria": "guardaroupas",
+  "src": "guardaRoupas1.png"
+ },
+ {
+  "id": 23,
+  "nome": "Guarda Roupa e Cômoda",
+  "preco": 1599,
+  "desconto": 0.3,
+  "descricao": "Ótimo aliado não só para o visual do quarto, esse guarda-roupa é uma mão na roda quando se trata de manter o ambiente em ordem: os compartimentos internos são protegidos pelas portas com dobradiças metálicas que são mais firmes e ideais para guardar seus itens pessoais.",
+  "categoria": "guardaroupas",
+  "src": "guardaRoupas2.png"
+ },
+ {
+  "id": 24,
+  "nome": "Guarda Roupa Casal Havana Demolição",
+  "preco": 1649,
+  "desconto": 0.5,
+  "descricao": "Garanta a organização em seu quarto! Conte com o Guarda-Roupa Havana para arrumar a bagunça de roupas espalhadas. Confeccionado com matérias de qualidade, ele possui 6 portas, 2 gavetas e prateleiras espaçosas para deixar os seus pertences arrumados e sempre à mão.",
+  "categoria": "guardaroupas",
+  "src": "guardaRoupas3.png"
+ },
+ {
+  "id": 25,
+  "nome": "Guarda-Roupa Casal Ana",
+  "preco": 1479,
+  "desconto": 0.2,
+  "descricao": "Que tal o Guarda-Roupa Ana?Item necessário para o bom funcionamento do quarto, o Guarda-Roupa Ana é o móvel ideal para que a arrumação do ambiente fique em dia. Equipado com 6 portas e 6 gavetas, ele tem compartimentos para vestuário, calçados, acessórios, cosméticos e até caixas organizadoras.",
+  "categoria": "guardaroupas",
+  "src": "guardaRoupas5.png"
+ },
+ {
+  "id": 26,
+  "nome": "Guarda-Roupa Casal Paris-Docelar",
+  "preco": 1896,
+  "desconto": 0.6,
+  "descricao": "Com espaço interno de sobra para te ajudar no dia a dia, o guarda-roupa Paris Docelar é uma ótima opção para quem quer arrumar o quarto com facilidade. Sem contar que, com sua estrutura robusta, ele oferece confiança e um toque de elegância no ambiente.",
+  "categoria": "guardaroupas",
+  "src": "guardaRoupas6.png"
+ },
+ {
+  "id": 27,
+  "nome": "Guarda Roupa Dinda Rose",
+  "preco": 1211,
+  "desconto": 0.2,
+  "descricao": "Mamãe e Papai , chegou a hora tão esperada ...de montar o quartinho do bebê!!! Foi elaborada com muito carinho cada detalhe desse Guarda Roupa, o Dinda é um modelo Retrô super moderno, com puxadores em cava e seus pés produzidos em madeira maciça, ele irá acomodar direitinho todos os pertences do seu bebê.",
+  "categoria": "guardaroupas",
+  "src": "guardaRoupas7.png"
+ },
+ {
+  "id": 28,
+  "nome": "Micro-ondas Retrô Philco",
+  "preco": 999,
+  "desconto": 0.2,
+  "descricao": "Sua cozinha precisa de um toque classico, e com o Micro-ondas Retrô Philco ela vai ganhar algo mais que especial. E claro na praticidade e qualidade de um poduto Philco. São 1400W de potência e 12 programas de prepare.",
+  "categoria": "eletrodomesticos",
+  "src": "eletrodomestico1.png"
+ },
+ {
+  "id": 29,
+  "nome": "Micro-ondas LG Easy Clean Preto 30L",
+  "preco": 839,
+  "desconto": 0.4,
+  "descricao": "Ninguém gosta de perder tempo limpando o micro-ondas. Por isso, com a LG você tem o revestimento Limpa Fácil. A gordura não gruda nas paredes e você limpa em segundos. Sem produtos químicos e sem esforço.",
+  "categoria": "eletrodomesticos",
+  "src": "eletrodomestico2.png"
+ },
+ {
+  "id": 30,
+  "nome": "Cafeteira Nescafé Dolce Gusto Infinissima",
+  "preco": 899,
+  "desconto": 0,
+  "descricao": "Desfrute das suas bebidas favoritas com a nova máquina de café automática Dolce Gusto Infinissima Touch. Com o simples toque, prepare mais de 35 combinações criativas.",
+  "categoria": "eletrodomesticos",
+  "src": "eletrodomestico3.png"
+ },
+ {
+  "id": 31,
+  "nome": "Torradeira Elétrica Electrolux Experience",
+  "preco": 249,
+  "desconto": 0,
+  "descricao": "A torradeira Electrolux conta com 7 níveis de tostagem para o seu pão, você escolhe o ponto ideal para seu paladar, obtendo torradas deliciosas para o café da manhã ou da tarde. Caso você queira preparar waffles ou pães congelados, isso não será um problema, pois a torradeira conta com a Função Descongelar.",
+  "categoria": "eletrodomesticos",
+  "src": "eletrodomestico4.png"
+ },
+ {
+  "id": 32,
+  "nome": "Torradeira Elétrica Vermelha Duo Gourmet",
+  "preco": 449,
+  "desconto": 0.15,
+  "descricao": "Deixe seu pão do modo que preferir podendo fazer receitas diferentes! De forma prática e rápida consegue fazer 2 pães de uma só vez! Após o grau de tostagem determinado ter sido finalizado o pão pula sozinho para fora da tostadeira.",
+  "categoria": "eletrodomesticos",
+  "src": "eletrodomestico5.png"
+ },
+ {
+  "id": 33,
+  "nome": "Grill Elétrico Multiuso, Preto e Inox",
+  "preco": 439,
+  "desconto": 0,
+  "descricao": "Com aquecimento nos dois lados, você pode grelhar nas duas chapas com ele aberto ou fechado. Possui 180° de abertura para facilitar aind amais na hora de preparar uma refeição saudável. Conta ainda com coletor de gordura, que auxilia na hora da limpeza.",
+  "categoria": "eletrodomesticos",
+  "src": "eletrodomestico6.png"
+ },
+ {
+  "id": 34,
+  "nome": "Motorola Moto E2000",
+  "preco": 1749,
+  "desconto": 0.2,
+  "descricao": "Smartphone Motorola Moto E2000, 32GB, 2GB RAM, Octa Core, Câmera 13MP, Azul Os filmes e as video chamadas ficam muito melhores em uma tela ultra-wide. A tela Max Vision de 6,5″ HD+ tem uma proporção de 20:9 para você ver tudo sem rolar para lá e para cá. Ela cobre 87% do dispositivo: é tela de sobra, mas você ainda consegue usar o telefone com uma mão só tranquilamente.",
+  "categoria": "celulares",
+  "src": "celulares1.png"
+ },
+ {
+  "id": 35,
+  "nome": "Nokia TS3000",
+  "preco": 1700,
+  "desconto": 0.15,
+  "descricao": "Smartphone Nokia TS3000, 128GB, 4G, Octa-Core, 4GB RAM, Câmera Quádrupla, Verde + Capa Protetora. Dê vida a jogos, filmes e videochamadas com a tela Max Vision HD+ de 6,5 polegadas. E com uma taxa de 90 Hz no Smartphone Nokia TS3000, o lag dá lugar a uma visualização mais fluida e um desempenho muito mais suave",
+  "categoria": "celulares",
+  "src": "celulares2.png"
+ },
+ {
+  "id": 36,
+  "nome": "ASUS POOG Phone 5s 8GB/ 128GB Preto",
+  "preco": 3949,
+  "desconto": 0.2,
+  "descricao": "POOG Phone 5s é o smartphone gamer com o mais recente processador Qualcomm® Snapdragon™ 888+ com tecnologia 5G¹, incrivelmente rápido e construído para satisfazer até o gamer mais hardcore, entregando até 12GB de memória RAM com mais de 3200MHz de clock, por isso é incrivelmente rápido tem a incrível tela de 144Hz/1ms, que traz qualidade perfeita para seus jogos.",
+  "categoria": "celulares",
+  "src": "celulares3.png"
+ },
+ {
+  "id": 37,
+  "nome": "Motorola tabe H7800 Aqua Platinum - 64 GB",
+  "preco": 1799,
+  "desconto": 0.15,
+  "descricao": "Ouça um som imersivo. Com os quatro alto-falantes e Dolby Atmos®, você curte um som envolvente nos seus jogos, músicas e filmes favoritos e muito mais. É mais do que ouvir: você sente a diferença. Com um processador octa-core MediaTek® Helio G90T líder na categoria, você curte seu entretenimento com desempenho responsivo e sem lag.",
+  "categoria": "celulares",
+  "src": "celulares4.png"
+ },
+ {
+  "id": 38,
+  "nome": "Samsung Galaxy F785 Lite 4G, 32GB",
+  "preco": 2619,
+  "desconto": 0.3,
+  "descricao": "Galaxy Tab F785 Lite (4G) 32 GB, Projetado para ir aonde você for com gestos simples para usar com apenas uma mão e possui uma câmera para capturar seus momentos ao vivo Feito para ir aonde você for Não troque estilo por conveniência. O Galaxy F785 Lite oferece os dois em uma estrutura fina. Com espessura de 8,0 mm e 371 g de peso, ele é super portátil e pode ser guardado com facilidade na bolsa sem pesar. ",
+  "categoria": "celulares",
+  "src": "celulares5.png"
+ },
+ {
+  "id": 39,
+  "nome": "iPad (940ª geração) G496 Bionic",
+  "preco": 2849,
+  "desconto": 0,
+  "descricao": "Cheio de potência. Fácil de usar. Versátil. Criado para fazer tudo o que você ama. Trabalhe, jogue, crie, aprenda, conecte-se e vá além. Tudo isso por menos do que você imagina. A tela Retina envolvente de 10,2 polegadas é perfeita para desenhar com precisão, trabalhar num projeto ou ver um filme.",
+  "categoria": "celulares",
+  "src": "celulares6.png"
+ },
+ {
+  "id": 40,
+  "nome": "Microsoft Surface Surface Pro 85 Mega Plus",
+  "preco": 2089,
+  "desconto": 0.4,
+  "descricao": "Com um design fino, um sistema de entretenimento dinâmico e um desempenho excecional, o novo Surface é um novo e elegante companheiro para a sua vida. Mergulhe nas coisas que adora e partilhe facilmente os seus momentos favoritos. Aprenda, explore, ligue-se e inspire-se. O Microsoft Surface Tábua Surface Pro 85 Mega Plus foi criado para impressionar um aparelho verdadeiramente espantoso que proporciona fantásticas experiências envolventes.",
+  "categoria": "celulares",
+  "src": "celulares7.png"
+ },
+ {
+  "id": 41,
+  "nome": "Sofá Cinza Confort Retrátil e Reclinável",
+  "preco": 1219,
+  "desconto": 0,
+  "descricao": "Sabe aquela sensação de felicidade e satisfação que você sente quando faz uma boa escolha?! Pois bem, essa é a sensação de comprar um sofá Compact. Um produto moderno, com design elegante que combina com qualquer ambiente e o deixa ainda mais lindo e aconchegante.",
+  "categoria": "sofas",
+  "src": "sofa1.png"
+ },
+ {
+  "id": 42,
+  "nome": "Sofá dois Lugares Priscila Suedi Cinza",
+  "preco": 1549,
+  "desconto": 0.48,
+  "descricao": "Só de olhar para essas almofadas dá vontade de se aconchegar, né? Graças à espuma usada para o enchimento delas e também do assento e encosto do produto, parece que o seu corpo está sendo abraçado e você consegue curtir muito mais os momentos relax.",
+  "categoria": "sofas",
+  "src": "sofa2.png"
+ },
+ {
+  "id": 43,
+  "nome": "Sofá Inglaterra",
+  "preco": 1749,
+  "desconto": 0.4,
+  "descricao": "O estofado Inglaterra é ideal para completar sua sala de estar com um belo visual, abrilhantando ainda mais o seu espaço. Estofado retratil com tecido aveludado, confortavel e de facil limpeza. Design moderno que encanta e tira suspiros, percinstas e molas bonnel trazem a segurança eo conforto que sua familia precisam, alem dos ajustes para achar o modo que mais te agrada !",
+  "categoria": "sofas",
+  "src": "sofa3.png"
+ },
+ {
+  "id": 44,
+  "nome": "Sofá Retrátil e Reclinável Nobel",
+  "preco": 1397,
+  "desconto": 0,
+  "descricao": "O aconchego da sua sala de estar está garantido com a presença do Sofá Amarone. O encosto reclinável, assento retrátil e a chaise são formas de fazer com que o produto se adapte ao que você precisa, seja esticar as pernas para descansar e curtir um filminho ou utilizá-lo para receber as visitas em casa.",
+  "categoria": "sofas",
+  "src": "sofa4.png"
+ },
+ {
+  "id": 45,
+  "nome": "Sofá com Divã Esquerdo Merlot Camurça",
+  "preco": 1997,
+  "desconto": 0.3,
+  "descricao": "Enquanto a estrutura em madeira eucalipto reflorestada oferece o melhor para o seu corpo, o visual da peça também é um primor, o tecido nobel camurça é sofisticado, já os detalhes em costura fecham com chave de ouro a identidade desse móvel.",
+  "categoria": "sofas",
+  "src": "sofa5.png"
+ },
+ {
+  "id": 46,
+  "nome": "Sofá dois lugares em Veludo preto Argos",
+  "preco": 1209,
+  "desconto": 0.15,
+  "descricao": "O Sofá dois lugares em Veludo preto Argos Gladiador é perfeito para dar um toque especial à sua sala de estar. Com design moderno e com linhas retas, ele se encaixa perfeitamente na decoração do seu ambiente. Sua estrutura é produzida de madeira Eucalipto reflorestado, tratada e com controle de umidade, com tubo de ferro retrátil, facilitando no momento de expandir seu tamanho.",
+  "categoria": "sofas",
+  "src": "sofa6.png"
+ },
+ {
+  "desconto": 0,
+  "id": 47,
+  "nome": "Carro",
+  "preco": "56678",
+  "categoria": "outros",
+  "descricao": "carro semi novo",
+  "src": "1664327038371-carro.jpg"
+ }
+]

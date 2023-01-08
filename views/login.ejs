@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Login | Desapegados</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+
+</head>
+
+<body>
+    <header>
+        <%- include('./partials/header') %>
+    </header>
+    <div class="conteudo">
+        <div class="card">
+            <form class="form">
+                <div class="card-grup">
+                    <p>Digite seus dados para entrar</p>
+                    <input class="input-login" type="text" name="Email" placeholder="Email">
+                    <input class="input-login" type="password" name="Senha" placeholder="Senha">
+                    <a href=""><button class="botao-login" type="submit">Acessar</button></a>
+                    <p class="sem-cadastro">Não possui um cadastro?</p>
+                </div>
+            </form>
+            <a href="/usuarios/cadastro"><button class="botao-cadastro" type="submit">Cadastre-se</button></a>
+        </div>
+    </div>
+</body>
+<footer>
+    <%- include('./partials/footer') %>
+</footer>
+
+</html>

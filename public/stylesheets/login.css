@@ -1,0 +1,73 @@
+.conteudoError{
+    height: 60vh;
+    font-size: .9em;
+}
+
+.conteudo {
+    height: 61vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card {
+    font-size: 1.6rem;
+    font-weight: bold;
+    background-color: rgb(35, 149, 255);
+    border-radius: 20px;
+    padding: 2% 5%;
+    border: 1px solid black;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.card-grup {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-grup>input {
+    border-radius: 5px;
+    margin: 4% 0;
+    font-weight: bold;
+    padding: 4%;
+    border: none;
+    font-size: 1.2rem;
+    outline: 0;
+
+}
+
+.card-grup .botao-login {
+    padding: 2% 8%;
+    margin-top: 10%;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+
+.card-grup button:hover {
+    background-color: rgb(169, 169, 169);
+}
+
+.sem-cadastro {
+    margin-bottom: -8%;
+    font-size: 1.2rem;
+}
+
+.botao-cadastro {
+    padding: 2% 8%;
+    margin-top: 10%;
+    font-size: 1.2rem;
+    border-radius: 20px;
+}
+
+.botao-cadastro:hover {
+    background-color: rgb(169, 169, 169);
+}
+
+a>button {
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}

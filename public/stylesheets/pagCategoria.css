@@ -1,0 +1,48 @@
+.caixa {
+    display: inline-block;
+    box-shadow: 0px 4px 10px 0 black;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 15px;
+    background-color: rgb(152, 204, 253);
+    text-align: center;
+    width: 22%;
+    height: 100%;
+    margin: 1% 1% 1% 1.6%;
+}
+
+.caixa-produtos{
+    text-decoration: none;
+    color: black;
+}
+
+.desconto {
+    margin: 0;
+    font-style: oblique;
+    color: red;
+    text-decoration: line-through;
+}
+
+.img-produto {
+    object-fit: cover;
+    padding-top: 3%;
+    width: 150px;
+    height: 150px;
+    white-space: 2px;
+    
+}
+
+.novo-preco {
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.product-box_image{
+    margin: 0;
+    padding: 0;
+}
+
+.produto-nome{
+    font-weight: bold;
+    font-size: 14px;
+}

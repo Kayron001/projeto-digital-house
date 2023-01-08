@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Carrinho de Compras | Desapegados</title>
+  <link rel="stylesheet" href="/stylesheets/pagCheckout.css  ">
+  <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+
+</head>
+
+<body>
+  <header>
+    <%- include('./partials/header') %>
+  </header>
+  <div class="view">
+    <form action="/checkout/finalizar-compra?_method=DELETE" method="POST">
+        <button class="botao-apagar" type="submit">Finalizar Compra</button>
+    </form>
+    <div class="carrinho">
+        <% carrinho.forEach(function(carrinho){
+            let precoNumber = Number(carrinho.preco)
+            let precoFinal = (precoNumber * (1 - carrinho.desconto)).toFixed(2).replace('.',',')
+            let preco = precoNumber.toFixed(2).replace('.',',')%>
+        <div class="caixa">
+            <a class="caixa-produtos" href="/produtos/item/<%= carrinho.id %>">
+            <span href="<%= carrinho.id %>">
+            <img class="img-produto" src="/images/produtos/<%= carrinho.src %>" alt="imagem do produto">
+                <% if(carrinho.desconto> 0){ %>
+                    <p class="desconto">
+                        De R$ <%= paraMil(preco) %>
+                    </p>
+                    <span>
+                        <%= 100 * carrinho.desconto %>% OFF
+                    </span>
+                    <p class="novo-preco">
+                        por R$ <%= paraMil(precoFinal) %>
+                    </p>
+                        <% } else { %>
+                    <br>
+                    <br>
+                    <br>
+                    <p class="novo-preco">
+                        R$ <%= paraMil(precoFinal) %>
+                    </p>
+                        <% }%>
+                    <p class="produto-nome">
+                        <%= carrinho.nome %>
+                    </p>
+            </span>
+                </a>
+        </div>
+    <% }) %>
+
+</div>
+
+</div>
+
+
+</body>
+<footer>
+  <%- include('./partials/footer') %>
+</footer>
+
+</html>

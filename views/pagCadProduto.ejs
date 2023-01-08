@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Venda um Produto | Desapegados</title>
+    <link rel="stylesheet" href="/stylesheets/pagCadProduto.css">
+    <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+</head>
+
+<body class="body">
+    <header>
+        <%- include('./partials/header') %>
+    </header>
+
+    <div class="conteudo">
+        <div class="caixa-formulario">
+            <div class="row">
+                <div class="">
+                    <h2 class="products-title">Me conte o que você deseja vender</h2>
+                </div>
+            </div>
+            <div class="">
+                <form action="/produtos" method="POST" enctype="multipart/form-data"> <!--adcionado enctype="multipart/form-data" -->
+                    <div class="produto">
+                        <div class="produto-detalhe nome">
+                            <label for="nome">Nome do produto:</label>
+                            <p><input type="text" name="nome" placeholder="Ex.: Chinelos Reebok"></p>
+                        </div>
+                        <div class="produto-detalhe preco">
+                            <label for="preco">Preço do produto:</label>
+                            <p><input type="number" inputmode="numeric" name="preco" placeholder="Ex.: 5678"></p>
+                        </div>
+                        <div class="produto-detalhe categoria">
+                            <label for="categoria">Categoria:</label>
+                            <p>
+                                <select name="categoria">
+                                    <option value="outros">Outros</option>
+                                    <option value="sofas">Sofás</option>
+                                    <option value="camas">Camas</option>
+                                    <option value="celulares">celulares</option>
+                                    <option value="guardaroupas">Guarda-Roupas</option>
+                                    <option value="eletrodomesticos">Eletrodomésticos</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="produto-detalhe descricao">
+                            <label for="descricao">Descrição:</label>
+                            <p><textarea name="descricao"></textarea></p>
+                        </div>
+                        <div class="produto-detalhe Imagem ">
+                            <label class="produto-detalhe-img" for="image">Imagem do produto:</label>
+                            <br>
+                            <input type="file" name="image" id="image">
+                        </div>
+                        <div class="botao-salvar">
+                            <button type="submit">Salvar produto</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+<footer>
+    <%- include('./partials/footer') %>
+</footer>
+
+</html>

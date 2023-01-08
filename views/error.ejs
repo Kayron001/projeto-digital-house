@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Desapegados</title>
+    <link rel="stylesheet" href="/stylesheets/login.css">
+    <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+
+</head>
+
+<body>
+    <header>
+        <%- include('./partials/header') %>
+    </header>
+    <div class="conteudoError">
+        <h1><%= message %></h1>
+        <h2><%= error.status %></h2>
+        <pre><%= error.stack %></pre>
+    </div>
+</body>
+<footer>
+    <%- include('./partials/footer') %>
+</footer>
+
+</html>

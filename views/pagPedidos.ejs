@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Pedidos | Desapegados</title>
+    <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+    <link rel="stylesheet" href="/stylesheets/pagPedidos.css">
+</head>
+
+
+<body>
+    <header>
+        <%- include('./partials/header') %>
+    </header>
+    <div class="conteudo">
+        <% pedidos.forEach(function(pedidos){ let preco=pedidos.itens.reduce((valorInicial, {valor})=> valorInicial
+            +valor, 0).toFixed(2).replace('.',',') %>
+            <div class="caixa">
+                <span> <p class="mensagem-id">Ordem de Pedido: <%= pedidos.id %></p>
+                            <% pedidos.itens.forEach(item=> { %>
+                                <p class="item-lista"> <%= `- ${item.nome}` %> </p>
+                            <% }) %>
+                        <p class="mensagem-valor">
+                            Valor Total do Pedido:<br />
+                        <p class="novo-preco">R$ <%= paraMil(preco) %>
+                        </p>
+                        </p>
+                </span>
+            </div>
+            <% }) %>
+    </div>
+</body>
+<footer>
+    <%- include('./partials/footer') %>
+</footer>
+
+</html>

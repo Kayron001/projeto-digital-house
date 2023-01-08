@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Editar Produto | Desapegados</title>
+    <link rel="stylesheet" href="/stylesheets/pagEditProduto.css">
+    <link rel="shortcut icon" href="/images/home/logo-D.ico" type="x-icon">
+</head>
+
+<body class="body">
+    <header>
+        <%- include('./partials/header') %>
+    </header>
+
+    <div class="conteudo">
+        <div class="caixa-formulario">
+            <div class="row">
+                <div>
+                    <h2 class="products-title">Você está editando: <i><%= editar.nome %></i></h2>
+                </div>
+            </div>
+            <div class="">
+                <form action="/produtos/item/editar/<%= editar.id %>?_method=PATCH" method="POST">
+                    <div class="produto">
+                        <div class="produto-detalhe nome">
+                            <label for="nome">Nome do produto:</label>
+                            <p><input type="text" name="nome" value="<%= editar.nome %>"></p>
+                        </div>
+                        <div class="produto-detalhe preco">
+                            <label for="preco">Preço do produto:</label>
+                            <p><input type="number" name="preco" value="<%= editar.preco %>"></p>
+                        </div>
+                        <div class="produto-detalhe categoria">
+                            <label for="categoria">Categoria:</label>
+                            <p>
+                                <select name="categoria">
+                                    <option value="outros">Outros</option>
+                                    <option value="sofas">Sofás</option>
+                                    <option value="camas">Camas</option>
+                                    <option value="celulares">celulares</option>
+                                    <option value="guardaroupas">Guarda-Roupas</option>
+                                    <option value="eletrodomesticos">Eletrodomésticos</option>
+                                </select>
+                            </p>
+                        </div>
+                        <div class="produto-detalhe descricao">
+                            <label for="descricao">Descrição:</label>
+                            <p><textarea name="descricao"><%= editar.descricao %></textarea></p>
+                        </div>
+                        <div class="botao-salvar">
+                            <button type="submit" href="/produtos/item/<%= editar.id %>">Atualizar</button>
+                        </div>
+                    </div>
+                </form>
+                <a class="botao-cancelar" href="/produtos/item/<%= editar.id %>"><button>Cancelar</button></a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+</body>
+<footer>
+    <%- include('./partials/footer') %>
+</footer>
+
+</html>
